@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+header.titulo{
+    
+    background-color: #1a5c38;
+    width: 1080;
+    height:100px;
+}
+
+
+body.main{
+    margin-right: 0px;
+    background-color: #84e1ad;
+
+     }
+
+
+ nav.menu{
+       
+        background-color: rgb(235, 141, 78);
+        width: 1080;
+        height:40px;
+        
+    }
+
+
+    article.materia{
+        
+        
+        background-color: rgb(247, 247, 247);
+        width: 700px; 
+        margin-left: auto;
+        margin-right: auto; 
+           padding-bottom: 1000px;
+           padding-left: 100px;
+    }
+
+    footer.roda_pe{
+
+        
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 450px;
+    background-color: rgba(6, 40, 194, 0.534);
+    }
