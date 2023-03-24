@@ -4,12 +4,21 @@
     
     }
 
+    h1,p{
+        text-align: center;
+    }
+
+    a.imagen{
+        text-align: center;
+    }
+
     h1.cor_titulo{
         background-color: rgb(243, 250, 245);
     }
 header.titulo{
     
-    background-image: linear-gradient( to right, red, green, yellow, blue );
+    background-image: linear-gradient(to bottom, #00FF00, #008000);
+
     width: 1080;
     height:100px;
 }
@@ -40,6 +49,20 @@ body.main{
         margin-right: auto; 
            padding-bottom: 1000px;
            padding-left: 100px;
+    }
+
+
+    
+    article.imagen{
+        
+        
+        
+       /* background-color: rgb(128, 11, 11);
+        width: 700px; 
+        margin-left: auto;
+        margin-right: auto; 
+           padding-bottom: 1000px;
+           padding-left: 100px;*/
     }
 
     footer.roda_pe{
