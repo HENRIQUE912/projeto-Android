@@ -37,9 +37,16 @@
 
 
     
-    a.imagen{
+    a.imagem{
         text-align: center;
+        padding: 250px;
     }
+
+    a1.video{
+        text-align: center;
+        padding: 130px;
+    }
+
 
     h1.cor_titulo{
         background-color: rgb(243, 250, 245);
