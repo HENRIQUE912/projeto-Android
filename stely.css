@@ -3,10 +3,24 @@
     padding: 0;
     
     }
+    :root{
+        /* paleta de cores */
+        --cor0: #9BD7F2;
+        --cor1: #52BDF0;
+        --cor2: #4095BD;
+        --cor3: #265970;
+        --cor4: #486370;
+    
+        /* fontes */
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --font-destaque: 'Audiowide', cursive; 
+        --font-android: 'Android'
+    }
+ 
 
     h1,p{
         text-align: center;
-        color: red;
+        color: rgb(27, 90, 206);
 		/* Poderia usar:;
 		color: #ff0000;*/
 		/* Poderia usar:;
@@ -30,9 +44,14 @@
     h1.cor_titulo{
         background-color: rgb(243, 250, 245);
     }
-header.titulo{
+
+    main h1{
+        color: var(--cor4);
+        font-family: var(--font-android);
+    }
+    header.titulo{
     
-    background-image: linear-gradient(to bottom, #00FF00, #008000);
+    background-image: linear-gradient(to bottom, #31e47e, #006680);
 
     width: 1080;
     height:100px;
@@ -48,14 +67,17 @@ body{
     background-color: rgb(199, 255, 236);
     font-family: var(--fonte-padrao);
 }
+
+
 body.main{
    
     
-    margin-right: 0px;
+    margin-right: 10px;
     background-color: #84e1ad;
 
     padding: 20px;
     border-radius: 10px;
+    
 
     min-width: 320px;
     max-width: 8200px;
@@ -73,30 +95,53 @@ body.main{
         
     }
 
+    nav > a{
+        padding: 10px;
+        text-decoration: none;
+        color:var(--cor1);
+        font-weight: bold;
+        transition-duration: 0.3s;
+    }
+
+    nav a:hover{
+        background-color: var(--cor1);
+        border-radius: 5px;
+        color: var(--cor4);
+    }
 
     article.materia{
         
-        
+        padding: 30px;
         background-color: rgb(247, 247, 247);
-        width: 700px; 
+        width: 800px; 
         margin-left: auto;
         margin-right: auto; 
            padding-bottom: 10px;
            padding-left: 100px;
+           padding-right: 100px;
+
+           
+           
     }
 
+   
+     
 
 
     
 aside.h3{
     background-color: rgba(19, 175, 79, 0.753);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    
+    
 }
     aside.ul{
-        background-color: rgba(5, 219, 87, 0.877);
+        background-color: rgba(5, 219, 69, 0.877);
         list-style-position: inside;
         columns: 2;
+        border-radius: 10px;
+        
     }
 
     footer.roda_pe{
@@ -106,5 +151,8 @@ aside.h3{
     padding-right: 50px;
     padding-bottom: 30px;
     padding-left: 30px;
-    background-color: rgba(6, 40, 194, 0.534);
+    background-image: linear-gradient(to bottom, #31e47e, #006680);
+    border-radius: 10px;
     }
+
+
